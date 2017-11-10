@@ -1,0 +1,6 @@
+AddDefaultCharset UTF-8
+Options -Indexes
+
+RewriteEngine on
+RewriteCond %{REQUEST_URI} !^/static/
+RewriteRule (.*) index.php [QSA,L]

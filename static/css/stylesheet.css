@@ -1,0 +1,18 @@
+.navbar {
+    margin-bottom: 25px;
+}
+
+.required-star {
+    color: red;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1;
+}
+
+[type='file'].is-invalid + .invalid-feedback {
+    display: block;
+}
+
+.close {
+    font-size: 22px;
+}
